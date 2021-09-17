@@ -1,0 +1,22 @@
+﻿1. 
+http:// -->protocolo di comunicazione
+www. -->sub -domain
+.qualsiasisitoweb. -->parte centrale e nome del host
+.it -->TLD-top level domain (com,org,cz)
+
+2.
+c) src
+
+3.
+a)
+
+4.
+posso selezionare con:
+ul
+class="color";
+
+5.
+<a href="www.avanade.com">Avanade</a>
+
+6.
+h1

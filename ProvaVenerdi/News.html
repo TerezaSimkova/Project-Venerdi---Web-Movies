@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Movies</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+<body onload="checkEmail()">
+    <header>
+        <div>
+            <img class="logo" src="https://logowik.com/content/uploads/images/t_imdb-internet-movie-database5351.jpg" alt="Alternate Text" />
+        </div>
+        <div class="nav">
+            <a href="HomePage.html">Home</a>
+            <a href="News.html">News</a>
+            <a href="SchedaTechnica.html">Scheda Technica</a>
+        </div>
+    </header>
+    <img class="newsletter" src="https://uuch.org/wp-content/uploads/2021/04/newsletter-orange-red-yellow.jpg" alt="Alternate Text" />
+        <form id="Form" onsubmit="saveData(); hideForm();">
+            <label>E-mail Address:</label><br>
+            <input type="text" id="email" name="email" onchange="ChangeButton()"><br>
+            <input class="formButton" type="submit" value="Subscribe" disabled>
+        </form>
+        <button id="btn" type="button" onclick="unsubscribeMe()" style="display:none">Unsubscribe</button>
+    <div>
+        <a href="HomePage.html">
+            <input type="button" class="button" name="button" value="Home >" />
+        </a>
+    </div>
+    <div class="footer">
+        <p class="footerName">&copy; Tereza Simkova</p>
+    </div>
+</body>
+</html>

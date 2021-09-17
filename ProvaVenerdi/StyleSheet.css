@@ -1,0 +1,128 @@
+﻿body {
+    width: auto;
+    margin: 0;
+    font-family:Calibri
+}
+.nav {
+    overflow: hidden;
+    background-color: #333;
+}
+.newsletter {
+    width: 250px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px;
+}
+#testo {
+    width: auto;
+    border: 1px solid #cecece;
+    line-height: 1.6em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px;
+}
+    .nav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .nav a:hover {
+            background-color: #ffd800;
+            color: black;
+        }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #ffd800;
+    font-weight:500;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+}
+.footerName {
+    text-align: center;
+    padding-top: 25px;
+    color: #ffd800;
+}
+
+.trailer {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.behindTrailer {
+    background-color: #000000;
+}
+.logo {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+form {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    background-color: #ffd800;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input[type="button"] {
+    border-radius: 4px;
+    background-color: #ffd800;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+button {
+    border-radius: 4px;
+    background-color: #ffd800;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
